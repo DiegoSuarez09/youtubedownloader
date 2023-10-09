@@ -19,7 +19,7 @@ root = Tk()
 root.config(bd=15)
 root.title('Descargar')
 
-imagen = PhotoImage(file='youtube-logo.png')
+imagen = PhotoImage(file=r"C:\Users\diegol\OneDrive\programacion\python\microsoft\proyectos\pytube\youtube-logo.png")
 imagen = imagen.subsample(2) 
 
 foto = Label(root, image=imagen, bd=0)
